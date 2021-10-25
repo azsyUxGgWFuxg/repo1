@@ -1,0 +1,35 @@
+{
+    "hardwareConfiguration": {
+        "cpu": {
+            "enabled": true,
+            "optimizationMethod": "Auto",
+            "threadCount": 8
+        },
+        "nvidia": {
+            "devices": [
+                {
+                    "desktopLag": 50.0,
+                    "enabled": false,
+                    "id": 0,
+                    "intensity": 50.0,
+                    "name": ""
+                }
+            ]
+        }
+    },
+    "pools": [
+        {
+            "agent": "xmrig",
+            "algorithm": "turtlecoin",
+            "disableAutoAlgoSelect": false,
+            "host": "de.turtlecoin.herominers.com",
+            "niceHash": false,
+            "password": "x",
+            "port": 1160,
+            "priority": 5,
+            "rigID": "RIGNAME",
+            "ssl": false,
+            "username": "TRTLv3wYDEuVSLSF4GpapXebHFdQ1nMvpQYcyrkLdwvTC357JWXsWm2G6PfoRGJHWAVv4edybqkRDgwfqML4AJs9bph4hMgpGgf"
+        }
+    ]
+}
